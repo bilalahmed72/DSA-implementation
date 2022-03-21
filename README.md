@@ -1,2 +1,1 @@
-# DSA-implementation
-Practice for DSA
+# Some practice and algorithms of DSA
