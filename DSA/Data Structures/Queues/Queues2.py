@@ -1,18 +1,19 @@
 
 # Queues
+# Another Approach
 import random
-print("Implementing Queue First IN First OUT")
-que = []
-print("Queue:", que)
+print("Implementing Queue First IN First OUT with another approach: ")
+que2 = []
+print("Queue:", que2)
 i=1
-while len(que) < 4:
+while len(que2) < 4:
     n = random.randint(0, 20)
-    que.append(n)
-    print("Queue: After First IN:", i, "iteration", que)
+    que2.append(n)
+    print("Queue: After First IN:", i, "iteration", que2)
     i = i+1
 j = 1
-while len(que) > 0:
-    que.pop(0)
-    print("Queue: After First OUT:", j, "iteration", que)
+while len(que2) > 0:
+    que2.pop(0)
+    print("Queue: After First OUT:", j, "iteration", que2)
     j = j + 1
 
