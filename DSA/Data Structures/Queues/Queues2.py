@@ -17,3 +17,5 @@ while len(que2) > 0:
     print("Queue: After First OUT:", j, "iteration", que2)
     j = j + 1
 
+print("Thanks")    
+
