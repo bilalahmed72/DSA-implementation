@@ -15,3 +15,5 @@ while len(arr) > 0:
     arr.pop()
     print("Array First OUT: After", i, "iteration", arr)
     i=i+1
+    
+print("Stack Completed")
