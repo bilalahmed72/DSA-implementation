@@ -20,3 +20,7 @@ while beg<=end:
     elif val > arr[mid]:
         beg = mid+1
 print(search)
+print("Binary Search Implemented")
+
+
+
