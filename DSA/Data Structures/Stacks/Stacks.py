@@ -16,4 +16,4 @@ while len(arr) > 0:
     print("Array First OUT: After", i, "iteration", arr)
     i=i+1
     
-print("Stack Completed")
+print("Stack Completed and Implemented")
